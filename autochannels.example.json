@@ -1,0 +1,16 @@
+{
+	"tokens": {
+		"matt": "Cs-ludzdc_34592ab3697fccv0e7ebcdb45c2bcf86"		
+	},	
+	"channels": [
+		{
+			"channelId": "S3v3A_9Rc",
+			"feeds": [
+				{
+					"tokenId": "matt",
+					"url": "http://www.examplesite.com/feed"					
+				}
+			]			
+		}
+	]
+}

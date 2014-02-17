@@ -13,3 +13,9 @@ results
 
 npm-debug.log
 node_modules
+channeldata
+
+*.sublime-project
+*.sublime-workspace
+notes.txt
+autochannels.json
