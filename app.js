@@ -27,7 +27,7 @@ _.each(acData.channels, function(channel){
 
 function processLoop() {
 	// process each channel
-	async.each(channels, function(channel, _callback){
+	async.eachSeries(channels, function(channel, _callback){
 		channel.process(_callback);
 	}, function(err){
 		if(err){ console.log('error running autochannel: ' + err); }

@@ -23,7 +23,7 @@ AutoChannel.prototype.process = function(_callback) {
 	var self = this;
 
 	// go through each feed and get the most recent feed data
-	async.each(this.feeds, function(feed, _cb){
+	async.eachSeries(this.feeds, function(feed, _cb){
 		var url = feed.getURL();		
 		feed.process(self.feedData[url], function(err, lastUpdated){
 			if(err) { 
@@ -58,7 +58,7 @@ AutoChannel.prototype.process = function(_callback) {
 
 		// next go through each item and use the churn api to add the video
 		async.eachSeries(self.itemList, function(item, icb){
-			console.log('adding video: ' + item.id);
+			console.log('adding video (channel - ' + self.id + '): ' + item.id);
 			
 			API.addVideo(self.id, 'http://www.youtube.com/watch?v=' + item.id, item.token, function(err){
 				if(err) { console.log('error adding video: ' + util.inspect(err, false, null)); }
