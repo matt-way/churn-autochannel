@@ -24,13 +24,13 @@ AutoChannel.prototype.process = function(_callback) {
 
 	// go through each feed and get the most recent feed data
 	async.each(this.feeds, function(feed, _cb){
-		var url = feed.getURL();
+		var url = feed.getURL();		
 		feed.process(self.feedData[url], function(err, lastUpdated){
 			if(err) { 
 				console.log('error processing feed: ' + err);
 			}else{
-				// update the last updated time
-				self.feedData[url] = lastUpdated;
+				// update the last updated time				
+				self.feedData[url] = lastUpdated;				
 			}
 			// run the callback without errors because we still want to process which videos were loaded			
 			_cb();

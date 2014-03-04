@@ -82,7 +82,7 @@ Feed.prototype.fetch = function(done) {
 			// add the post item to the to-be-parsed list
 			// we cannot parse here, because feedparser doesn't cater
 			// to async processes inside 'readable'
-			// also, only process items who come after the last process time
+			// also, only process items who come after the last process time			
 			if(time > self.curLastUpdated){				
 				self.tobeParsed.push({
 					data: post,
@@ -99,6 +99,7 @@ Feed.prototype.process = function(_lastUpdated, _callback) {
 	self.lastUpdated = _lastUpdated || 0;
 	self.curLastUpdated = self.lastUpdated;
 	self.tobeParsed = [];
+	self.items = [];
 	this.fetch(function(err){
 		// ensure that no items are returned for some reason upon feed error
 		if(err) { 

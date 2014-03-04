@@ -9,7 +9,8 @@ var _ = require('underscore'),
 var util = require('util');
 
 // rerun interval (default 3 hours)
-var interval = process.env.AC_INTERVAL || 3*60*60*1000;
+var interval = process.env.AC_INTERVAL || 4*60*60*1000;
+console.log('autochannel interval time: ' + interval);
 
 var channels = [];
 
