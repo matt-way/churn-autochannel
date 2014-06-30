@@ -19,3 +19,4 @@ channeldata
 *.sublime-workspace
 notes.txt
 autochannels.json
+*.old

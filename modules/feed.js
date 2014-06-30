@@ -55,8 +55,8 @@ Feed.prototype.fetch = function(done) {
 	var req = request(self.data.url, {timeout: 25000, pool: false});
 	req.setMaxListeners(50);
 	// Some feeds do not response without user-agent and accept headers.
-	req.setHeader('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36')
-		 .setHeader('accept', 'text/html,application/xhtml+xml');
+	//req.setHeader('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36')
+	//   .setHeader('accept', 'text/html,application/xhtml+xml');
 
 	var feedparser = new FeedParser();
 
@@ -65,7 +65,11 @@ Feed.prototype.fetch = function(done) {
 	req.on('response', function(res) {
 		var stream = this;			
 
-		if (res.statusCode != 200) return this.emit('error', new Error('Bad status code'));
+		if (res.statusCode != 200){
+			console.log(res.statusCode);
+
+			return this.emit('error', new Error('Bad status code'));	
+		} 
 
 		// parse the feed
 		stream.pipe(feedparser);
@@ -110,12 +114,15 @@ Feed.prototype.process = function(_lastUpdated, _callback) {
 			_callback(err, _lastUpdated);
 		}else{
 			// parse the item for videos
+			// cap the number to be parsed
+			var capped = self.tobeParsed.slice(0, 20);
 			// as this is async we need to catch when completed
-			async.eachSeries(self.tobeParsed, function(post, _cb){				
+			async.eachSeries(capped, function(post, _cb){				
 				self.parseItem(post.data, function(err, id){
 					if(err) { 
 						console.log('error processing feed item: ' + util.inspect(err, false, null)); 
-					}else{						
+					}else{		
+						console.log('parsed item: ' + id);				
 						if(id){
 							self.items.push({
 								id: id,
