@@ -1,0 +1,540 @@
+{
+   "tokens": {
+       "churn_bot": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb29rdXAiOiJ1cmhibGE1YmJqOTIiLCJsYXN0TG9naW4iOjE0MDE3NDMyMjgwNTUsImlhdCI6MTQwMTc0MzIyODY4MywiZXhwIjoxNDEzNzQ5MTY4NjgzfQ.3SnHxbU_BeGgENEf-wLNpir9BWY0mA6l540apSYy2kQ"
+   },
+   "channels": [        
+       {
+           "channelId": "ubonkfctzm91",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.shockmansion.com/feed"
+               }
+           ]
+       },
+       {
+           "channelId": "1h85bhmep2nvm",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "https://www.youtube.com/rss/user/vice/"
+               }
+           ]
+       },
+       {
+           "channelId": "ubgalz5ihg6p",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "https://www.youtube.com/rss/user/sbnation/"
+               }
+           ]
+       },
+       {
+           "channelId": "rhlogct1k1fb",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/reddit/IzFA"
+               }
+           ]
+       },
+       {
+           "channelId": "rhg3qfv8tkxl",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "https://www.youtube.com/rss/user/noisey/"
+               }
+           ]
+       },
+       {
+           "channelId": "vb92k78ho2ep",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "https://www.youtube.com/rss/user/theverge/"
+               }
+           ]
+       },
+       {
+           "channelId": "vbemvx4yagxj",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/feedburner/eaoq"
+               }
+           ]
+       },
+       {
+           "channelId": "rkxbg5xm1b21",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/thekidshouldseethis/NAoD"
+               }
+           ]
+       },
+       {
+           "channelId": "vbnhb2wig65u",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/reddit/aUVc"
+               }
+           ]
+       },
+       {
+           "channelId": "to1tvjijntra",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "https://www.youtube.com/rss/user/Vsauce3/"
+               }
+           ]
+       },
+       {
+           "channelId": "tocun20r1wkz",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/LearnUselessTalents"
+               }
+           ]
+       },
+       {
+           "channelId": "1h7tqubrmrwpx",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/upworthy"
+               }
+           ]
+       },
+       {
+           "channelId": "1ib6gv4erft5t",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/youtube/rxLd"
+               }
+           ]
+       },
+       {
+           "channelId": "s4p23b5ktq3n",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/UploadsByGopro"
+               }
+           ]
+       },
+       {
+           "channelId": "1ib603v3ryulh",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.natureknows.org/feeds/posts/default"
+               }
+           ]
+       },
+       {
+           "channelId": "1iyn8jlh8v80z",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.lilhub.com/rss?term=5"
+               }
+           ]
+       },
+       {
+           "channelId": "uv95puj8cgva",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.lilhub.com/rss?term=7"
+               }
+           ]
+       },
+       {
+           "channelId": "sl6o3fdcx8it",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.lilhub.com/rss?term=8"
+               }
+           ]
+       },
+       {
+           "channelId": "veynm8prwv1y",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.lilhub.com/rss?term=10"
+               }
+           ]
+       },
+       {
+           "channelId": "uv8mm00tq6up",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.lilhub.com/rss?term=11"
+               }
+           ]
+       },
+       {
+           "channelId": "1ib0y0uaje9uu",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://feeds.feedburner.com/tastefullyoffensive"
+               }
+           ]
+       },
+       {
+           "channelId": "1jeaf44tpqg6b",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://twentytwowords.com/feed/"
+               }
+           ]
+       },
+       {
+           "channelId": "ubgazvynefxx",
+           "feeds": [
+               {
+                   "tokenId": "churn_bot",
+                   "url": "http://www.thisblewmymind.com/feed/"
+               }
+           ]
+       },
+       {
+       		"channelId": "u7raa0ux2oms",
+       		"feeds": [
+       			{
+       				"tokenId": "churn_bot",
+       				"url": "http://blog.petflow.com/feed/"
+       			}
+       		]
+       },
+       {
+          "channelId": "vf3pmgjce0qc",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://themindunleashed.org/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "ubrf9sstl35h",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://surfstayscore.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "rh51f0pwy5b9",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/vicenews"
+            }
+          ]
+       },
+       {
+          "channelId": "qhqlezvify9f",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.pawmygosh.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "to7dhqbdlh6c",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.lifebuzz.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "qeco6wpag0mo",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/EpicMealTime"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/GhettoNN"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/Munchies"
+            }
+
+          ]
+       },
+       {
+          "channelId": "r1iwbw8or9ko",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/LastWeekTonight"
+            }
+          ]
+       },
+       {
+          "channelId": "vbmyzkh4ffp0",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/FunnyorDie"
+            }
+          ]
+       },
+       {
+          "channelId": "qe3sj2se0tv9",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/soundisstyle"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "http://soundisstyle.com/feed"
+            }
+          ]
+       },
+       {
+          "channelId": "1hrgi4zenyjoy",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/thesoundyouneed1"
+            }
+          ]
+       },
+       {
+          "channelId": "1ibebtlmwvrjl",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/wearethehyve"
+            }
+          ]
+       },
+       {
+          "channelId": "1iavexudokm75",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/MrSuicideSheep"
+            }
+          ]
+       },
+       {
+          "channelId": "1jetadiqfgi1u",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/majesticcasual"
+            }
+          ]
+       },
+       {
+          "channelId": "1jyovaq6xosvo",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/MotherboardTV"
+            }
+          ]
+       },
+       {
+          "channelId": "vb3lsxtrdqap",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/AsapSCIENCE"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/minutephysics"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/scishow"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/1veritasium"
+            },
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/Vsauce"
+            }
+          ]
+       },
+       {
+          "channelId": "1ien696j4xttg",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/voxdotcom"
+            }
+          ]
+       },
+       {
+          "channelId": "t4tfrqq4f8s2",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "https://www.youtube.com/rss/user/thumpchannel"
+            }
+          ]
+       },
+       {
+          "channelId": "qhhu6ty46fxv",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.freeridermx.com/tag/videos/feed?type=rss"
+            }
+          ]
+       },
+       {
+          "channelId": "1k254ei776khi",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://feeds.feedburner.com/ScienceVideosAmazingVideosDocumentingTheWorldWeLiveIn"
+            }
+          ]
+       },
+       {
+          "channelId": "1jelix1nhj5tk",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://feeds.feedburner.com/reddit/eiLe"
+            }
+          ]
+       },
+       {
+          "channelId": "uvjra3unqgkl",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://feeds.feedburner.com/UnheardOfNewMusicThatJustNeedsAFriendlyBoost"
+            }
+          ]
+       },
+       {
+          "channelId": "vey5r6i95gdw",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://feeds.feedburner.com/reddit/XQbS"
+            }
+          ]
+       },
+       {
+          "channelId": "to4m1egyybsi",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.superautofans.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "ubgtph33vak3",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.theinertia.com/category/video/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "toien40y2kbo",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://bangshift.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "1jew0yxe4phlx",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://truththeory.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "1hr5f418r7c6b",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.prankartist.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "1ib60htuqc1gh",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://feeds.feedburner.com/HIGHTIMESMagazine"
+            }
+          ]
+       },
+       {
+          "channelId": "u7p1zy0rd5d1",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.musclecarinvasion.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "u82wet8ng4zc",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.tophotcars.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "1jiak67z4myjm",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.incrediblethings.com/feed/"
+            }
+          ]
+       },
+       {
+          "channelId": "vbng7ly3kl7n",
+          "feeds": [
+            {
+              "tokenId": "churn_bot",
+              "url": "http://www.itsokaytobesmart.com/rss"
+            }
+          ]
+       }
+   ]
+}

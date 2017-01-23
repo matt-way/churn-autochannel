@@ -20,3 +20,5 @@ channeldata
 notes.txt
 autochannels.json
 *.old
+
+.DS_Store

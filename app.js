@@ -34,10 +34,12 @@ function processLoop() {
 
 		console.log('processing iteration complete');
 
+/*
 		// processing complete, so restart
 		setTimeout(function(){
 			processLoop();
 		}, interval);	
+*/
 	});	
 }
 
